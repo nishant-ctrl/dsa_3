@@ -1,3 +1,32 @@
+// Write a program to implement the operations, given below, on a given singly linked list L, where each node
+// of L contains one data item called key. Each operation should be implemented with a function according to
+// the abstract definition of the operation given below, where L is a singly linked list, n is a node that can be a
+// member of L, and the key contained in any node ni is denoted as ni.key. After initially creating L with m
+// nodes by taking m and the key values of L as input from the user, the user will be shown a menu-based
+// interface where the user will choose to execute an operation. The menu will be repeatedly displayed until
+// the user chooses to quit. The first node of L is called the head, and the last node of L is called the tail.
+// (i) search(L, k) := Searches for the value k in L; returns n if n is the first occurrence of a node in L
+// such that n.key = k; returns NIL if there is no such node in L.
+// (ii) count(L) := Returns the number of nodes in L.
+// (iii) addAtHead(L, n) := Adds a node n to the beginning of L, making n the new head of L.
+// (iv) addAtTail(L, n) := Adds a node n to the end of L, making n the new tail of L.
+// (v) insert(L, n, p) := Inserts a node n in L at position p.
+// Page 1 of 5
+// (vi) deleteByPosition(L, p) := Removes node n from position p of L, and frees the storage held by n.
+// (vii) deleteByValue(L, k) := Removes every node ni from L where ni.key = k, and frees the storage held
+// by the removed nodes.
+// (viii) maximum(L) := Returns a pointer to the node with the largest key value in L (returns the first such
+// node if multple nodes store the largest key value in L).
+// (ix) minimum(L) := Returns a pointer to the node with the smallest key value in L (similar to
+// maximum).
+// (x) empty(L) := Removes all nodes of L, and frees the storage held by the removed nodes.
+// (xi) print(L) := Prints the key values of L elegantly in the correct order, from head to tail.
+// Also, define the following function (abstract definition given) to create a node, and call this function from
+// other functions whenever a new node needs to be created.
+//  create_node(k) := creates and returns a new node n with n.key = k; returns NIL if new node could
+// not be created.
+
+
 #include <stdio.h>
 #include <stdlib.h>
 struct mynode

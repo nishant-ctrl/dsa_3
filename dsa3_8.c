@@ -1,3 +1,23 @@
+// Write a program to implement a queue with a doubly linked list. Given below are abstract definitions of
+// functions that you need to implement, where Q is a queue, x is an element that can be stored in Q, front is
+// the end of Q where only the delete operation is allowed, rear is the other end of the Q where only the add
+// operation is allowed. Each node of the linked list contains a data item which represents an element of the
+// queue. After initially creating a queue Q with k elements and with maximum size max, taking k, max, and
+// the elements of Q as input from the user, your program will show a menu-based interface, similar to
+// Question no. 5, where the user can choose from the following options: i) Add, ii) Delete, iii) Display,
+// iv) Quit. The menu will be displayed repeatedly until the user chooses option (iv). The add and delete
+// functions must call the functions isFull and isEmpty, respectively, to check the overflow and underflow
+// conditions, for which appropriate messages should be displayed.
+// isEmpty(Q) := returns True if Q is empty, otherwise returns False.
+// Page 2 of 5
+// isFull(Q) := returns True if Q is full (i.e. Q contains the maximum number of elements), otherwise returns
+// False.
+// add(Q, x) := adds x to the rear of Q.
+// delete(Q) := deletes an element x from the front of Q and returns x, i.e. removes from Q the node
+// containing x, frees the storage held by the removed node, and returns x.
+// display(Q) := prints all elements of Q elegantly from front to rear.
+
+
 #include <stdio.h>
 #include <stdlib.h>
 struct mynode

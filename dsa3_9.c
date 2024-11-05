@@ -1,3 +1,16 @@
+// Write a program to delete the middle node of a doubly linked list, i.e. given a doubly linked list L of n
+// nodes, delete the ⌈
+// n
+// 2
+// ⌉
+// th node of L. Create a doubly linked list L of n nodes by taking n and the data items of
+// every node of L as input from the user. Display the nodes of L from head to tail before and after deleting the
+// middle node as shown in the sample final output given below.
+// Sample Final Output
+// Original linked list: 50, 40, 20, 15, 10
+// Modified linked list: 50, 40, 15, 10
+
+
 #include <stdio.h>
 #include <stdlib.h>
 struct mynode 

@@ -1,3 +1,10 @@
+// Write a program to create a singly linked list (a chain) and then display the odd numbers and the even
+// numbers of the list in two separate lines. Create a linked list L containing n nodes, where each node contains
+// one data item called key which stores an integer, by taking n and the values of key for each node of L as
+// input from the user. Print all the key values of L in the correct order, starting from the first node, called the
+// head, and ending at the last node, called the tail, in the 1st line of the final output of your program. Print all
+// the odd key values of L in the 2nd line of the final output of your program, and print all the even key values
+// of L in the 3rd line of the final output of your program. Display the output in the format given below
 #include <stdio.h>
 #include <stdlib.h>
 struct mynode

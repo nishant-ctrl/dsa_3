@@ -1,3 +1,13 @@
+// Write a program to delete every alternate node of a doubly linked list L, starting with the 2nd node. After
+// taking L as input from the user, modify L so that the nodes at even positions, i.e. 2nd node, 4th node, 6th node,
+// and so on, of L are deleted. Assume that every node of L contains one data item. Note that deleting a node of
+// a linked list means removing the node from the linked list and then freeing the storage held by that node.
+// Display L both before and after the modification as the final output of your program.
+// Sample Final Output
+// Original list: 40, 30, 10, 20, 50, 25, 70
+// Modified list: 40, 10, 50, 70
+
+
 #include <stdio.h>
 #include <stdlib.h>
 struct mynode 

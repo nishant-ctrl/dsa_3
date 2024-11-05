@@ -1,3 +1,23 @@
+// Write a program to implement a stack with a singly linked list. Given below are abstract definitions of
+// functions that you need to implement, where S is a stack, x is an element that can be stored in S, top is the
+// end of stack where push and pop operations are allowed, bottom is the other end of the stack. Each node of
+// the linked list contains a data item which represents an element of the stack. After initially creating a stack S
+// with k elements and with an upper limit on the number of elements as max, taking k, max, and the elements
+// of S as input from the user, your program will show a menu-based interface, similar to Question no. 5,
+// where the user can choose from the following options: i) Push, ii) Pop, iii) Display, iv) Quit. The menu will
+// be displayed repeatedly until the user chooses option (iv). The push and pop functions must call the
+// functions isFull and isEmpty, respectively, to check the overflow and underflow conditions, for which
+// appropriate messages should be displayed. Note that deleting a node of the linked list means removing the
+// node from the linked list and then freeing the storage held by the removed node.
+// isEmpty(S) := returns True if S is empty, otherwise returns False.
+// isFull(S) := returns True if S is full (i.e. S contains the maximum number of elements), otherwise returns
+// False.
+// push(S, x) := pushes x to S.
+// pop(S) := pops an element x from S and returns x, i.e. returns the popped data item after deleting the
+// popped node.
+// display(S) := prints all elements of S elegantly from top to bottom (clearly indicating top).
+
+
 #include <stdio.h>
 #include <stdlib.h>
 struct mynode
